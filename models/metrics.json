@@ -1,0 +1,29 @@
+{
+  "best_model": "logistic_regression",
+  "models": {
+    "logistic_regression": {
+      "spatial_cv_roc_auc": 0.904,
+      "spatial_cv_pr_auc": 0.735
+    },
+    "random_forest": {
+      "spatial_cv_roc_auc": 0.901,
+      "spatial_cv_pr_auc": 0.722,
+      "random_cv_roc_auc": 0.932
+    }
+  },
+  "n_positive": 49,
+  "n_negative": 147,
+  "n_blocks": 156,
+  "folds": 5,
+  "block_size_m": 2000,
+  "features": [
+    "elevation",
+    "slope",
+    "northness",
+    "eastness",
+    "curvature",
+    "roughness",
+    "tpi"
+  ],
+  "crs": "LOCAL_CS[\"GCS_ETRS_1989\",UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]"
+}
