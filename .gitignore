@@ -5,3 +5,9 @@ __pycache__/
 tmp/
 files/
 models/*.tif
+oblig2_files/
+*.zip
+laz_to_dtm.py
+environment.yml
+src/
+notebooks/
